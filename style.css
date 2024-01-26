@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Red Hat Display";
+  overflow-x: hidden;
+}
+.main-logo {
+  display: block;
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  position: relative;
+}
+.header-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 33px;
+}
+.bttns {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.header-texts h1 {
+  color: #28283d;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 64px;
+  width: 445px;
+}
+.header-texts p {
+  color: #87879d;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  width: 540px;
+}
+.bttn {
+  border-radius: 29px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+  text-align: center;
+  border: none;
+  height: 58px;
+  cursor: pointer;
+}
+.bttn1 {
+  background: #4d96a9;
+  width: 193px;
+}
+.bttn1 span {
+  color: #8fe3f9;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+}
+.bttn2 {
+  background: #855fb1;
+  width: 140px;
+}
+.left-side-img {
+  position: absolute;
+  left: -32px;
+}
+.right-side-img {
+  position: absolute;
+  right: -32px;
+}
+.main-container {
+  margin-top: 117px;
+  text-align: center;
+}
+.number-section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.line {
+  width: 1px;
+  height: 84px;
+  background-color: #87879d;
+  opacity: 0.25;
+}
+.circle {
+  display: flex;
+  width: 56px;
+  height: 56px;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  background: #fafafa;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.main-images {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.meet-ads {
+  width: 18%;
+  border-radius: 8px;
+}
+.main-texts {
+  margin-top: 67px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-texts h3 {
+  color: #4d96a9;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.main-texts h2 {
+  color: #28283d;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 44px;
+  margin-top: 16px;
+  width: 445px;
+}
+.main-texts p {
+  color: #87879d;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 32px;
+  width: 540px;
+}
+.number-section2 {
+  margin-top: 70px;
+  margin-bottom: -25px;
+}
+footer {
+  width: 100%;
+  height: 308px;
+  background-color: rgba(77, 150, 169, 0.8);
+  position: relative;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer::before {
+  background: url(./Images/image-footer.jpg) no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+footer h2 {
+  color: #fafafa;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 44px;
+  width: 350px;
+}
+footer p {
+  color: #fafafa;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  width: 350px;
+}
+footer .bttn2 {
+  width: 193px;
+}
+footer .bttn2 span {
+  color: #d9b8ff;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+}
